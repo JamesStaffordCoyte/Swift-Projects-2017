@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Auto_Layout_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V9K-l9-ha6">
+                                <rect key="frame" x="20" y="20" width="728" height="128"/>
+                                <color key="backgroundColor" red="0.28371913380000002" green="0.25727380820000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hH6-8V-lDy">
+                                <rect key="frame" x="20" y="916" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.007917337" blue="0.13704505240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Ljh-Zr-3g9"/>
+                                    <constraint firstAttribute="width" constant="100" id="cns-zL-vSy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nla-jC-OXx">
+                                <rect key="frame" x="648" y="916" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.3916449575" green="1" blue="0.12316436980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="63e-zf-XXj"/>
+                                    <constraint firstAttribute="height" constant="100" id="jQY-kQ-yke"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hH6-8V-lDy" secondAttribute="bottom" constant="8" symbolic="YES" id="GLy-r4-aVz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Nla-jC-OXx" secondAttribute="bottom" constant="8" symbolic="YES" id="SUo-zY-85q"/>
+                            <constraint firstItem="V9K-l9-ha6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="TH3-fJ-vr7"/>
+                            <constraint firstItem="V9K-l9-ha6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="muX-Cb-ur2"/>
+                            <constraint firstItem="Nla-jC-OXx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="n22-o1-UGk"/>
+                            <constraint firstItem="hH6-8V-lDy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ouy-y7-pJQ"/>
+                            <constraint firstItem="V9K-l9-ha6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ozw-2v-CRV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="409"/>
+        </scene>
+    </scenes>
+</document>
